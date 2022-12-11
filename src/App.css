@@ -7,8 +7,11 @@
 
 .app {
     padding-left: 80px;
+    background: rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+
 }
 
-p, input[type='text'], button  {
+p, span, input[type='text'], button {
     font-size: 18px;
 }
