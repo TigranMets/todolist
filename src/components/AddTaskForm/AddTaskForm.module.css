@@ -1,0 +1,27 @@
+form {
+    margin: 229px 0px 62px;
+    max-width: 1078px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.addTaskInput {
+    border: 1px solid #FFCD04;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 954px;
+    padding: 13px 0px 12px 16px;
+    line-height: 27px;
+    color: #DFDFDF;
+}
+
+button {
+    padding: 16.8px 31.5px;
+    margin-left: 24px;
+    background: #008594;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+}
