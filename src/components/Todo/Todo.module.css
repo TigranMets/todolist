@@ -3,7 +3,9 @@
 }
 
 input[type='checkbox'] {
-    outline: #008594;
+    width: 18px;
+    height: 18px;
+    accent-color: #008594;
     border: none;
     margin-right: 35px;
 }
@@ -11,7 +13,14 @@ input[type='checkbox'] {
 .todoDescription {
     vertical-align: center;
     line-height: 32px;
+}
+
+.unCompletedTodoDescription {
     color: #666666;
+}
+
+.completedTodoDescription {
+    color: #ACACAC;
 }
 
 img {
