@@ -12,11 +12,15 @@ const App = () => {
     useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todos));
     }, [todos]);
-    
+
+    const deleteTodo = (id) => {
+        setTodos(todos.filter(todo => todo.id !== id))
+    }
+
     return (
         <div className='app'>
             <AddTaskForm createTodo={createTodo} />
-            {todos.map(todo => <Todo todo={todo.todo} key={todo.id} />)}
+            {todos.map(todo => <Todo todo={todo.todo} key={todo.id} id={todo.id} deleteTodo={deleteTodo} />)}
         </div>
     )
 }
